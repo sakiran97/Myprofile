@@ -682,8 +682,8 @@
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-           .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-          // .then(response => document.location.href="thankyou.html") 
+           .then(response => alert(" Thanks for Contacting Me..! "))
+          .then(response => document.location.href="https://sakiran97.github.io/Myprofile/") 
           .catch(error => console.error('Error!', error.message))
       })
       
